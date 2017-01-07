@@ -5741,6 +5741,7 @@ a=rtcp-fb:100 nack pli
         In order for an offerer and answerer to always be able to associate an RTP stream
         with the correct "m=" line, the offerer and answerer using the BUNDLE extension MUST
         support the mechanism defined in <xref target="I-D.ietf-mmusic-sdp-bundle-negotiation" /> section 14.
+	<!-- <xref format="default" pageno="false" target="sec-receiver-id"/> -->
         where the offerer and answerer insert the identification-tag
         associated with an "m=" line (provided by the remote peer) 
 	in RTP and RTCP packets associated with a BUNDLE group.
@@ -5748,6 +5749,7 @@ a=rtcp-fb:100 nack pli
       <t>
         The mapping from an SSRC to an identification-tag is carried in RTCP
         SDES packets or in RTP header extensions (<xref target="I-D.ietf-mmusic-sdp-bundle-negotiation" /> section 14).
+	<!-- <xref format="default" pageno="false" target="sec-receiver-id"/> -->
 	Since a compound RTCP packet can contain multiple
         RTCP SDES packets, and each RTCP SDES packet can contain multiple chunks, an
         RTCP packet can contain several SSRC to identification-tag mappings. The offerer
