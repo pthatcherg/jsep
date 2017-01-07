@@ -5744,7 +5744,7 @@ a=rtcp-fb:100 nack pli
 	<!-- <xref format="default" pageno="false" target="sec-receiver-id"/> -->
         where the offerer and answerer insert the identification-tag
         associated with an "m=" line (provided by the remote peer) 
-	in RTP and RTCP packets associated with a BUNDLE group.
+	into RTP and RTCP packets associated with a BUNDLE group.
       </t>
       <t>
         The mapping from an SSRC to an identification-tag is carried in RTCP
